@@ -17,10 +17,7 @@ import org.littletonrobotics.junction.Logger;
 import org.littletonrobotics.junction.networktables.NT4Publisher;
 import org.littletonrobotics.junction.wpilog.WPILOGReader;
 import org.littletonrobotics.junction.wpilog.WPILOGWriter;
-import com.studica.frc.AHRS;
-import com.studica.frc.AHRS.NavXComType;
 
-import edu.wpi.first.wpilibj.SPI; // Or I2C, USB depending on your connection
 // ---------------------------------------------------------
 
 
@@ -59,7 +56,6 @@ public class Robot extends LoggedRobot {
   @Override
   public void robotInit() {
     m_robotContainer = new RobotContainer();
-  AHRS gyro = new AHRS(NavXComType.kMXP_SPI);
   }
 
   @Override
