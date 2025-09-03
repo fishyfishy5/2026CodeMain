@@ -18,8 +18,6 @@ import edu.wpi.first.math.kinematics.SwerveModuleState;
 import frc.robot.Constants.DriveConstants;
 import edu.wpi.first.wpilibj2.command.SubsystemBase;
 import com.studica.frc.AHRS;
-import edu.wpi.first.math.kinematics.SwerveModulePosition;
-import edu.wpi.first.wpilibj.SPI; // or I2C/Serial depending on connection
 import com.studica.frc.AHRS.NavXComType;
 
 public class DriveSubsystem extends SubsystemBase {
